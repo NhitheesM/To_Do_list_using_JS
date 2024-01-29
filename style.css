@@ -1,0 +1,52 @@
+body{
+    font-family: 'Verdana', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    background-image: url('/Life\ is\ this.png');
+}
+.Title h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.input-box{
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.button-container .button{
+    margin: 20px 10px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: #fff;
+    color: aliceblue;
+    background: linear-gradient(#9418fd, #571094);
+}
+
+#taskContainer {
+    border-radius: 5px;
+    border: 3px solid #fff;
+    padding: 10px;
+    background-color: pink;
+}
+/* Add a class to style completed tasks differently */
+.completed-task {
+    text-decoration: line-through;
+    color: #000;
+    /* Set the border color to black */
+}
+.btn{
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+
